@@ -7,6 +7,7 @@ This project is a barebones Xcode 9 application that sets up some of the basics 
 - Removes the default ViewController from the project and Main.storyboard
 - Has the LaunchScreen.xib and RW app icons already set up
 - Has the correct company name, bundle identifier, and code signing definitions (none)
+- Defaults new files to use the correct copyright information
 
 ## How To Use This
 First, download MyRWTutorial.zip from this repo and use that. Tutorial sample projects should not include a git repo, so *please do not* clone this repo and then start making modifications as the sample project.
@@ -20,4 +21,4 @@ After downloading and unzipping the skeleton project, several pieces should be c
 - Rename the top-level directory (the one that contains the .xcodeproj file)
 
 ## Credits
-Huge props to Scott Berrevoets for coming up with this idea and creating the project.
+Huge props to Scott Berrevoets for coming up with this idea and creating the project, and to Richard Critz for developing the FILEHEADER macro to automatically set the copyright.
