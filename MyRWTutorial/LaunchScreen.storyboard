@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -34,7 +34,7 @@
                             <constraint firstItem="skm-4Q-SEq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0tf-Kh-S2U"/>
                             <constraint firstItem="skm-4Q-SEq" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="20" id="45c-ps-A1j"/>
                             <constraint firstAttribute="trailing" secondItem="skm-4Q-SEq" secondAttribute="trailing" constant="20" id="Aji-Ek-k2q"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="thr-yb-z25" secondAttribute="bottom" id="FXS-f4-xfH"/>
+                            <constraint firstAttribute="bottom" secondItem="thr-yb-z25" secondAttribute="bottom" id="FXS-f4-xfH"/>
                             <constraint firstItem="skm-4Q-SEq" firstAttribute="width" secondItem="skm-4Q-SEq" secondAttribute="height" multiplier="1:1" id="Q4h-h8-kju"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="skm-4Q-SEq" secondAttribute="bottom" constant="20" id="TPw-KF-H85"/>
                             <constraint firstItem="thr-yb-z25" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="bHm-5w-uXH"/>
