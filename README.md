@@ -12,7 +12,7 @@ This project is a barebones Xcode 10 application that sets up some of the basics
 ## How To Use This
 First, download a zip archive of the repo from Github.com:
 
-<img width="481" alt="Clone or download > Download ZIP" src="https://user-images.githubusercontent.com/482871/47620993-f3a8e480-dae8-11e8-883a-a41456bd4672.png">
+<img width="481" alt="Clone or download &gt; Download ZIP" src="https://user-images.githubusercontent.com/482871/47620993-f3a8e480-dae8-11e8-883a-a41456bd4672.png">
 
 Tutorial sample projects should not include a git repo, so *please do not* clone this repo and then start making modifications as the sample project.
 
