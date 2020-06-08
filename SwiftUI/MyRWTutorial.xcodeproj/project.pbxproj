@@ -43,7 +43,9 @@
 				18D775BF22AD944300AE281E /* MyRWTutorial */,
 				18D775BE22AD944300AE281E /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		18D775BE22AD944300AE281E /* Products */ = {
 			isa = PBXGroup;
@@ -82,6 +84,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D775D122AD944400AE281E /* Build configuration list for PBXNativeTarget "MyRWTutorial" */;
 			buildPhases = (
+				181FE31D248EA6C900A180EA /* ShellScript */,
 				18D775B922AD944300AE281E /* Sources */,
 				18D775BA22AD944300AE281E /* Frameworks */,
 				18D775BB22AD944300AE281E /* Resources */,
@@ -140,6 +143,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		181FE31D248EA6C900A180EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -f ~/swiftlint.yml ]; then\n  if which swiftlint >/dev/null; then\n    swiftlint --config ~/swiftlint.yml\n  fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18D775B922AD944300AE281E /* Sources */ = {
