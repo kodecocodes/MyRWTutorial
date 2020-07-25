@@ -73,7 +73,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 185CB20C23C78CE8009F7571 /* Build configuration list for PBXNativeTarget "MyRWTutorial" */;
 			buildPhases = (
-				181FE31E248EA70400A180EA /* ShellScript */,
+				181FE31E248EA70400A180EA /* SwiftLint */,
 				185CB1F423C78CE6009F7571 /* Sources */,
 				185CB1F523C78CE6009F7571 /* Frameworks */,
 				185CB1F623C78CE6009F7571 /* Resources */,
@@ -134,7 +134,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		181FE31E248EA70400A180EA /* ShellScript */ = {
+		181FE31E248EA70400A180EA /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -143,6 +143,7 @@
 			);
 			inputPaths = (
 			);
+			name = SwiftLint;
 			outputFileListPaths = (
 			);
 			outputPaths = (
