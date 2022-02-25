@@ -25,6 +25,8 @@ After downloading and unzipping the skeleton project, several pieces should be c
 - Change the bundle identifier
 - Change the scheme name
 - Rename the top-level directory (the one that contains the .xcodeproj file)
+- Select your target, open the Build Settings tab and set the path of the Development Assets to `YourProjectName/Preview\ Content`.
+- Also, under the Build Settings of your target, go to Packaging and set the path of the Info.plist file to `YourProjectName/Info.plist`.
 
 ## Credits
 Huge props to Scott Berrevoets for coming up with this idea and creating the project, and to Richard Critz for developing the FILEHEADER macro to automatically set the copyright.
