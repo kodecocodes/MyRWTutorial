@@ -1,11 +1,11 @@
 raywenderlich.com Sample App
 ---
-This project is a barebones Xcode 12 application that sets up some of the basics according to standards for raywenderlich.com tutorial sample projects. Such things include:
+This project is a barebones Xcode 13 application that sets up some of the basics according to standards for raywenderlich.com tutorial sample projects. Such things include:
 
 - Sets the tab width to 2 spaces throughout the project
 - Removes some cruft from default files (primarily AppDelegate)
 - Removes the default ViewController from the project and Main.storyboard
-- Has the LaunchScreen.xib and RW app icons already set up
+- Has the LaunchScreen.xib and app icons already set up
 - Has the correct company name, bundle identifier, and code signing definitions (none)
 - Defaults new files to use the correct copyright information
 
