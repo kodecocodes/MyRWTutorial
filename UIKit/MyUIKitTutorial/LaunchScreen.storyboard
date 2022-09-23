@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,17 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="thr-yb-z25">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-white" translatesAutoresizingMaskIntoConstraints="NO" id="thr-yb-z25">
+                                <rect key="frame" x="151" y="366" width="73" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Dqv-02-he4"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="orange FF5A00"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="thr-yb-z25" secondAttribute="trailing" id="0Yk-op-Sbr"/>
-                            <constraint firstAttribute="bottom" secondItem="thr-yb-z25" secondAttribute="bottom" id="FXS-f4-xfH"/>
-                            <constraint firstItem="thr-yb-z25" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="bHm-5w-uXH"/>
-                            <constraint firstItem="thr-yb-z25" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="mnU-3N-lrW"/>
+                            <constraint firstItem="thr-yb-z25" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="WuO-3s-3TW"/>
+                            <constraint firstItem="thr-yb-z25" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Yvl-kt-w4x"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -35,6 +38,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background" width="1104" height="1104"/>
+        <image name="logo-white" width="73" height="80"/>
+        <namedColor name="orange FF5A00">
+            <color red="1" green="0.35294117647058826" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
