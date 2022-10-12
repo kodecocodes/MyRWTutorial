@@ -1,6 +1,6 @@
-raywenderlich.com Sample App
+iOS Sample App
 ---
-This project is a barebones Xcode 13 application that sets up some of the basics according to standards for raywenderlich.com tutorial sample projects. Such things include:
+This project is a barebones Xcode 14 application that sets up some of the basics according to standards for raywenderlich.com tutorial sample projects. Such things include:
 
 - Sets the tab width to 2 spaces throughout the project
 - Removes some cruft from default files (primarily AppDelegate)
